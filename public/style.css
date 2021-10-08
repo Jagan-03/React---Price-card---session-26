@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-body {
+    background-color: rgb(17, 17, 17);
+    padding: 2% 20px 2% 20px;
+}
+/* Card element */
+.card {
+    border-radius: 30px;
+    padding: 0 15px 0 15px;
+    transition: .5s;
+    transition-timing-function: ease-out;
+}
+.card:hover {
+    transform: translateY(-20px);
+}
+.card-type {
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.card-price {
+    font-size: 30px;
+}
+/* Check / times icon */
+.icon {
+    width: 30px;
+}
+/* sing-up button */
+.btn {
+    border-radius: 50px;
+}
